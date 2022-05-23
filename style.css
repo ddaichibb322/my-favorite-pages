@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+}
+
+#hero {
+  height: 65vh;
+  width: 100%;
+}
+
+.hero-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#site-list {
+  height: 35vh;
+  width: 100%;
+  background-color: #333;
+}
+
+.favicon-list-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.favicon {
+  margin: 30px;
+}
+
+.favicon-list-container img {
+  width: 30px;
+  height: 30px;
+}
